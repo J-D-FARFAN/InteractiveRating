@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <article class="contain--card display__only__cardOne">
+    <div class="content--image--star"><img src="images/icon-star.svg" alt=""></div>
+    <section class="main--information">
+      <h1 class="title">How did we do?</h1>
+      <p class="txt">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    </section>
+
+    <section class="content__rating--state">
+      <ol class="rating--state">
+        <li class="state">1</li>
+        <li class="state">2</li>
+        <li class="state">3</li>
+        <li class="state">4</li>
+        <li class="state">5</li>
+      </ol>
+      <input class="submit" type="submit"></button>
+    </section>
+  </article>
+
+
+  <article class="contain--card display--only--state">
+    <div class="content--state">
+      <img src="images/illustration-thank-you.svg" alt="" class="image--state">
+      <span class="state">You selected <span class="selected"></span> out of 5</span>
+    </div>
+    <section class="content--text">
+      <span class="thanks">Thank you!</span>
+      <p class="txt only-style--state--txt">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </section>
+  </article>
+  <!--  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  -->
+</body>
+</html>

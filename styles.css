@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Overpass", sans-serif;
+}
+
+.Prueba{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.display--only--state{text-align: center; display: none; justify-content: center; flex-direction: column; align-items: center;}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121417;
+}
+
+.contain--card{
+    width: 430px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    padding: 2rem;
+    border-radius: 24px;
+}
+
+.contain--card .content--image--star{
+    width: 50px;
+    height: 50px;
+    background-color: hsla(217, 12%, 63%, 0.17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.contain--card .main--information{
+    margin-bottom: 2rem;
+}
+
+.contain--card .main--information .title{
+    font-size: 28px;
+    margin-bottom: 1rem;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+.txt{
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+.contain--card .content__rating--state .rating--state{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.contain--card .content__rating--state .rating--state .state{
+    width: 50px;
+    height: 50px;
+    background-color: hsla(217, 12%, 63%, 0.193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contain--card .content__rating--state .rating--state .state:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.contain--card .content__rating--state .submit{
+    width: 100%;
+    height: 50px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 24px;
+    color: white;
+    font-size: 16.5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.contain--card .content__rating--state .submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.contain--card .content--state{
+    display: block;
+    padding-bottom: 1.5rem;
+    .state{
+        display: block; 
+        background-color: hsla(217, 12%, 63%, 0.193);
+        padding: 4px 12px;
+        border-radius: 24px;
+        color: hsl(25, 97%, 53%);
+        font-size: 14px;
+        margin-top: 1.5rem;
+    }
+}
+
+.contain--card .content--text{
+    .thanks{
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    } 
+    .only-style--state--txt{
+        margin-top: .7rem;
+    }
+}
+
+
